@@ -166,19 +166,19 @@ button{
 
 #Logo{
     width: 30%;
-    line-height: 72px;
+    line-height: 90px;
     text-align: center;
     /* the font in navbar is 18px */
     /* color: aqua; */
     /* text-decoration: red; */
     /* background-color: black; */
     /* position: absolute; */
-    background-color: yellow;
+    background-color: hsl(219, 90%, 56%);
     float: left;
 }
 #navv{
     width: 70%;
-    height: 72px;
+    height: 90px;
     background-color: black;
     /* used inline css to override the function */
     float: right;
