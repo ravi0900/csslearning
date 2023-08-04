@@ -58,14 +58,14 @@ p{
     position: absolute;
     left:0; top: -19px;
     animation-name: batrunner;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 
 }
 
 @keyframes batrunner{
-    from{left: 0;}
-    to{ right: 85%; }
+    from{left: 0;}  
+    to { left: 100%;}
 
 }
