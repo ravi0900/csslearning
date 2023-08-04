@@ -1,0 +1,203 @@
+/* *{
+    background-color: white;
+} */
+h2{
+    font-family: 'Borel', cursive;
+    font-variant: small;
+    font-size: 5em; 
+    /* em=16px */
+    font-weight: bold;
+    color: aqua;
+}
+#hello{
+    color: blueviolet;
+}
+.bye{
+    color: orange;
+}
+.new{
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    /* background-image: url('pic1.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+}
+
+.new1{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('pic1.png');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+.new2{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    background-image: url('pic2.png');
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y; */
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+#texty{
+/* font-family: 'Borel', cursive; */
+
+color: blue;
+letter-spacing: 3px;
+word-spacing: 5px;
+direction: ltr;
+/* text-indent: 1px;  this is used to give text margin */
+text-align: center;
+text-transform: initial;
+
+}
+a:link{
+color: green;
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: red;
+}
+a:active{
+    color: aliceblue;
+}
+#border{
+width: 500px;
+height: 300px;
+background-color: aqua;
+border: 5px red dashed;
+border-radius: 30px;
+}
+
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style: upper-roman;
+}
+.boxmodel{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    margin: auto;
+}
+input{
+    padding: 10px;
+    /* margin: 50px; */
+    margin: 30px;
+}
+label{
+    margin-left: 30px;
+}
+button{
+    margin: 0 0 0 40%;;
+}
+#scrollcss{
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+    border: 5px dotted red;
+    overflow: auto;
+}
+.position{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    position: relative;
+}
+#po1{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+
+}
+#po2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    right: 0;
+
+}
+#po3{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+
+}
+#po4{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+#pomid{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    /* bottom: 0; */
+    right: 40%;
+}
+
+.navbar{
+    width: 100%;
+    height: 90px;
+    color: red;
+    /* text-decoration: red; */
+    background-color: black;
+
+}
+
+#Logo{
+    width: 30%;
+    line-height: 72px;
+    text-align: center;
+    /* the font in navbar is 18px */
+    /* color: aqua; */
+    /* text-decoration: red; */
+    /* background-color: black; */
+    /* position: absolute; */
+    background-color: yellow;
+    float: left;
+}
+#navv{
+    width: 70%;
+    height: 72px;
+    background-color: black;
+    /* used inline css to override the function */
+    float: right;
+}
+#ullu{
+    list-style-type: none;
+    /* display: inline-block; */
+    direction: rtl;
+
+}
+#listt{
+    display: inline-block;
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+}
+.cursor{
+    height: 400px;
+    width: 100%;
+    background-color: yellow;
+    font-size: 30px;
+}
+
