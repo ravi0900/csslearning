@@ -83,6 +83,11 @@ p{
 }
 .ihover:hover{
     height: 100px; width: 100px;
+    /* also can use this
+    transform: scale(2,2);
+    but no border increment
+    and need to replace width height to transform */
+
 
 }
 
@@ -103,7 +108,7 @@ p{
     height: 506px;
     /* background-color: rgb(197, 255, 197); */
     border: 4px solid red;
-    /* background-image: url(pic1.png); */
+    background-image: linear-gradient(to right, green,yellow);
     position:relative;
     /* margin: auto; */
     
@@ -159,3 +164,37 @@ height: 100%; width: 100%;
 
 /* img-fluid is bootstrap 4 sysntax for image animation */
 
+/* box sizing  */
+
+.boxsize{
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    background-color: #48b6c9;
+    box-sizing: border-box;
+    /* also transform:tranlatex() can be used that not increase border size */
+}
+
+
+
+/* 2d/3d animation */
+.textef:hover{
+    transition: transform 2s;
+    transform: rotate(360deg);
+}
+/* skew matrix also there */
+
+/* flexbox in css */
+
+.flexbox{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, violet, magenta);
+    margin-bottom: 40px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;;
+}
